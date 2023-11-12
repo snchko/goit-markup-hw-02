@@ -163,15 +163,17 @@ body {
 }
 
 .button,
-.menu-item,
-.menu-link:hover,
+.menu-item:hover,
 .button,
-.menu-item,
+.menu-item:focus {
+  background-color: #404bbf;
+  color: #404bbf;
+}
+.address-info:hover,
 .address-info:focus {
   background-color: #404bbf;
   color: #404bbf;
 }
-
 .section-services {
   background-color: #2e2f42;
 }
