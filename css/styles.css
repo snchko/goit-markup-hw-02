@@ -169,6 +169,11 @@ body {
   background-color: #404bbf;
   color: #404bbf;
 }
+.menu-link:hover,
+.menu-link:focus {
+  background-color: #404bbf;
+  color: #404bbf;
+}
 .address-info:hover,
 .address-info:focus {
   background-color: #404bbf;
