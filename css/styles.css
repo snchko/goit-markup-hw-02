@@ -160,9 +160,9 @@ body {
 }
 
 .button,
-.menu-link:hover,
+.menu-item:hover,
 .button,
-.menu-link,
+.menu-item,
 .address-info:focus {
   background-color: #404bbf;
   color: #404bbf;
@@ -176,4 +176,10 @@ body {
 }
 .team {
   background-color: #ffffff;
+}
+
+button:hover,
+button:focus {
+  background-color: #404bbf;
+  color: #404bbf;
 }
