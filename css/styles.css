@@ -137,6 +137,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
 }
+.button-first {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
 .footer-logo-name {
   color: #f4f4fd;
   font-size: 18px;
@@ -155,13 +160,12 @@ body {
 }
 
 .button,
-.menu-link:hover {
-  background-color: #404bbf;
-}
+.menu-link:hover,
 .button,
 .address-info:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
+
 .section-services {
   background-color: #2e2f42;
 }
