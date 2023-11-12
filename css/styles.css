@@ -60,7 +60,7 @@ body {
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
-.button {
+.button-first {
   color: #ffffff;
   font-size: 16px;
   background-color: #4d5ae5;
@@ -154,11 +154,6 @@ body {
   letter-spacing: 0.32px;
 }
 
-.menu,
-.menu-items,
-.address-info:hover {
-  color: #404bbf;
-}
 .button,
 .menu-link:hover {
   background-color: #404bbf;
