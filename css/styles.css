@@ -4,9 +4,7 @@
 .link {
   text-decoration: none;
 }
-button {
-  cursor: pointer;
-}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -32,13 +30,16 @@ body {
   letter-spacing: 0.54px;
   word-wrap: break-word;
 }
-.menu-link {
+.menu-item {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
   word-wrap: break-word;
+}
+.menu-link {
+  color: #434455;
 }
 
 .address-info {
@@ -62,12 +63,13 @@ body {
   letter-spacing: 1.12px;
 }
 .button {
-  color: white;
+  color: #ffffff;
   font-size: 16px;
   background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 .advan-name {
   color: #2e2f42;
@@ -134,7 +136,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
 }
 .footer-logo-name {
@@ -155,12 +157,15 @@ body {
 }
 
 .menu,
-.menu-link,
+.menu-items,
 .button,
 .address-info:hover {
   color: #404bbf;
 }
-.button:hover:focus {
+.button:hover {
+  background-color: #404bbf;
+}
+.button:focus {
   color: #404bbf;
 }
 .section-services {
