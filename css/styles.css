@@ -162,8 +162,10 @@ body {
 .button,
 .menu-link:hover,
 .button,
+.menu-link,
 .address-info:focus {
   background-color: #404bbf;
+  color: #404bbf;
 }
 
 .section-services {
