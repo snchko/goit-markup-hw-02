@@ -10,19 +10,20 @@ button {
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 .logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   word-wrap: break-word;
 }
 .logo-name {
-  color: #4d5ae5;
+  color: #2e2f42;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -47,9 +48,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.head-1 {
+.address {
+  font-style: normal;
+}
+.head-services {
   color: white;
   font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
 
   font-weight: 700;
   line-height: 1.07;
@@ -58,7 +64,7 @@ body {
 .button {
   color: white;
   font-size: 16px;
-
+  background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
@@ -82,7 +88,7 @@ body {
 .section-name {
   color: #2e2f42;
   font-size: 36px;
-
+  text-align: center;
   font-weight: 700;
   text-transform: capitalize;
   line-height: 1.11;
@@ -119,8 +125,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.main-footer {
+  background-color: #2e2f42;
+}
 .footer-logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -129,12 +138,12 @@ body {
   letter-spacing: 0.54px;
 }
 .footer-logo-name {
-  color: #4d5ae5;
+  color: #f4f4fd;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
 }
 .footer-descr {
@@ -145,10 +154,22 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+
 .menu,
-.button :hover {
+.menu-link,
+.button,
+.address-info:hover {
   color: #404bbf;
 }
-.address-info:hover:focus {
+.button:hover:focus {
   color: #404bbf;
+}
+.section-services {
+  background-color: #2e2f42;
+}
+.section-team {
+  background-color: #f4f4fd;
+}
+.team {
+  background-color: #ffffff;
 }
