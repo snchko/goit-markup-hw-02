@@ -30,7 +30,7 @@ body {
   letter-spacing: 0.54px;
   word-wrap: break-word;
 }
-.menu-item {
+.menu-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -38,11 +38,9 @@ body {
   letter-spacing: 0.32px;
   word-wrap: break-word;
 }
-.menu-link {
-  color: #434455;
-}
 
 .address-info {
+  color: #434455;
   font-size: 16px;
   font-family: Roboto;
   font-weight: 400;
@@ -65,7 +63,7 @@ body {
 .button {
   color: #ffffff;
   font-size: 16px;
-  background-color: #4d5ae5;
+  background-color: #404bbf;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
@@ -162,10 +160,13 @@ body {
 .address-info:hover {
   color: #404bbf;
 }
-.button:hover {
+.button,
+.menu-link:hover {
   background-color: #404bbf;
 }
-.button:focus {
+.button,
+.menu-link,
+.address-info:focus {
   color: #404bbf;
 }
 .section-services {
