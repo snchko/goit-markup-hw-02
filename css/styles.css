@@ -38,6 +38,9 @@ body {
   letter-spacing: 0.32px;
   word-wrap: break-word;
 }
+.menu-item {
+  color: #2e2f42;
+}
 
 .address-info {
   color: #434455;
@@ -160,7 +163,8 @@ body {
 }
 
 .button,
-.menu-item:hover,
+.menu-item,
+.menu-link:hover,
 .button,
 .menu-item,
 .address-info:focus {
