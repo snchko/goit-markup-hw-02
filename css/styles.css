@@ -156,7 +156,6 @@ body {
 
 .menu,
 .menu-items,
-.button,
 .address-info:hover {
   color: #404bbf;
 }
@@ -165,7 +164,6 @@ body {
   background-color: #404bbf;
 }
 .button,
-.menu-link,
 .address-info:focus {
   color: #404bbf;
 }
