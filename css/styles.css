@@ -156,10 +156,11 @@ body {
 
 .menu,
 .menu-items,
+.button,
 .address-info:hover {
   color: #404bbf;
 }
-
+.button,
 .menu-link:hover {
   background-color: #404bbf;
 }
@@ -176,7 +177,4 @@ body {
 }
 .team {
   background-color: #ffffff;
-}
-.menu-link-1 {
-  color: #2e2f42;
 }
